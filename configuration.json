@@ -1,0 +1,35 @@
+{
+  "preprocessing": {
+    "lowercase": true,
+    "url": "token:url",
+    "mention": "token:user",
+    "whitespace": "normalize",
+    "stopwords": "remove",
+    "negators": [],
+    "lemmatize": false,
+    "elongation": "keep",
+    "elongation_spec": null,
+    "emoji": "keep",
+    "emoji_spec": null,
+    "resources": {},
+    "additional": {}
+  },
+  "representation": {
+    "type": "bow",
+    "ngram_range": [
+      1,
+      1
+    ],
+    "library": "sklearn",
+    "library_version": "1.7.2",
+    "spacy_model": null,
+    "spacy_model_version": null,
+    "parameters": {}
+  },
+  "classifier": {
+    "type": "logistic_regression",
+    "library": "sklearn",
+    "library_version": "1.7.2",
+    "parameters": {}
+  }
+}
