@@ -8,3 +8,5 @@ mlruns/
 *.pem
 *.key
 .DS_Store
+mlflow.db
+mlruns/
