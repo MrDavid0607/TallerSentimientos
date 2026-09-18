@@ -1,2 +1,4 @@
 member_id,notebook_arn
 E01,arn:aws:sagemaker:us-east-1:492606007513:notebook-instance/analisis-sentimientos
+E02,arn:aws:sagemaker:us-east-1:214844251412:notebook-instance/analisis-de-sentimientos
+E03,arn:aws:sagemaker:us-east-1:587058027292:notebook-instance/AnalisisDeSentimientos
